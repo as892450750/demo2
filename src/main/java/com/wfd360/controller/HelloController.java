@@ -13,7 +13,7 @@ public class HelloController {
     @ResponseBody
     public String data() {
         System.out.println("---------dataAAAAA----------");
-        return "hello wordAAAAA";
+        return "hello wordAAAAAA";
     }
     /**
      * 获取模拟数据
