@@ -15,4 +15,13 @@ public class HelloController {
         System.out.println("---------dataAAAAA----------");
         return "hello wordAAAAAA";
     }
+    /**
+     * 获取模拟数据
+     */
+    @RequestMapping("/test")
+    @ResponseBody
+    public String test() {
+        System.out.println("---------testBBBBB----------");
+        return "hello wordAAAAAA";
+    }
 }
